@@ -50,7 +50,7 @@ def main():
 
     print('\nUse a FOR loop to give each dog in the same last name:')
     for i in range(len(dogs)):
-        dogs[i] = dogs[i] + ' Dart'
+        dogs[i] = dogs[i] + ' Morgan'
     print(dogs)
 
 main()

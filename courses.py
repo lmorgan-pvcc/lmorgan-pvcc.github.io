@@ -18,8 +18,8 @@ network_elect = {'CSC 201', 'CSC 202', 'CSC 205',
         'MTH 131', 'MTH 161', 'MTH 162', 'MTH 263', }
 
 #create sets for ASSOCIATE degree, Information Technology degree:
-info_req = { 'CSC 110',  'ENG 111',  'ENG 112',  'ETR 149',  'ETR 164',  'ITD 110',
-                 'ITD 132',  'ITE 182',  'ITE 215',  'ITN 101',  'ITN 106',  'ITN 111',
+info_req = { 'CSC 110','ENG 111','ENG 112','ETR 149','ETR 164','ITD 110',
+                 'ITD 132',  'ITE 182',  'ITE 215',  'ITN 101','ITN 106',  'ITN 111',
                  'ITP 120',  'MTH 131',}
 
 info_elect ={'ITN 170', 'ITN 208', 'ITN 260', 'ITN 261',
@@ -32,7 +32,7 @@ global out
 def main():
         global out
         out = open(filename, "w")
-        out.write("\n********PIEDMONT VIRGINIA COMMUNITY COLLEGE**********")
+        out.write("\n*******PIEDMONT VIRGINIA COMMUNITY COLLEGE*********")
         process_network_courses()
         display_network_courses()
 

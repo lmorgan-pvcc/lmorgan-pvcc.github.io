@@ -8,7 +8,7 @@
 #       ---required courses
 #       ---plus 4 technical electives
 
-# create sets for  CERTIIFICATE, Computer & Network Support Technologies
+# create sets for CERTIIFICATE, Computer & Network Support Technologies
 network_req = {'CSC 110', 'ETR 164', 'ITN 101',}
   
 network_elect = {'CSC 201', 'CSC 202', 'CSC 205', 
